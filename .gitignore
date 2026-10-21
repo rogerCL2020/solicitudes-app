@@ -1,0 +1,19 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Java / Gradle
+.gradle/
+build/
+**/build/
+
+# Node / React
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

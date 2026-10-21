@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: solicitudes-api
+
+  r2dbc:
+    url: ${SPRING_R2DBC_URL:r2dbc:postgresql://localhost:5432/solicitudes_db}
+    username: ${SPRING_R2DBC_USERNAME:solicitudes_user}
+    password: ${SPRING_R2DBC_PASSWORD:local_dev_password}
+
+  sql:
+    init:
+      mode: always
